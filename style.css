@@ -1,0 +1,327 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    width: 80%;
+    border-radius: 5px;
+}
+
+section {
+    padding: 100px 0;
+    background: #172638;
+}
+
+.section_tittle {
+    margin-bottom: 30px;
+}
+.section_tittle h2 {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    transition: all 0.5s ease-in-out;
+}
+
+.section_tittle h2:hover {
+    background-color: #24caac;
+}
+
+/*? HEADER */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(136, 45, 45);
+    border-bottom: rgba(238, 238, 238, 0.801);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+#menu_bar{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo{
+    flex: 1;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: space-between;
+    margin-left:450px;
+}
+
+.nav_links li a {
+    margin-left: 15px;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav_links li a:hover {
+    background: #24caac;
+}
+
+.logo h2 a {
+    white-space: nowrap;
+    color: #fff;
+}
+
+/*? ANASAYFA */
+
+.inner_anasayfa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    color: #fff;
+}
+
+.child_anasayfa {
+    flex-basis: 45%;
+}
+.child_anasayfa h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: #d9d944; 
+}
+
+.btn {
+    background: #c64964;
+    padding: 12px 28px;
+    border-radius: 20px;
+    color: #fff;
+    border: 1px solid #24caac;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    background: transparent;
+    letter-spacing: 2px;
+}
+
+/*? YAZILIMLAR */
+
+.innersoftware {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.innersoftware_child {
+    flex-basis: 31%;
+    color: #fff;
+    padding: 25px 20px;
+    background-color: rgba(55, 66, 80, 0.281);
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+}
+
+.innersoftware_child:hover {
+    border:1px solid #24caac ;
+}
+
+.innersoftware_child .icon {
+    font-size: 25px;
+    color: #24caac;
+}
+
+.innersoftware_child h3 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.innersoftware_child p {
+    font-size: 16px;
+}
+
+/*? SERTİFİKALARIM */
+
+.inner_courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.child_course {
+    flex-basis: 15%;
+    color: #fff;
+    padding: 12px 8px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.child_course:hover {
+    border: 1px solid #24caac;
+}
+
+.child_course .course_img img {
+    width: 45%;
+}
+
+.child_course .detail {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.child_course .detail ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
+    color: gold;
+    font-size: 12px;
+}
+
+.child_course h3 {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+/*? BAŞARILAR */
+/*! bu kısmı ileride ekleyeceğim */
+
+/*? HAKKIMDA */
+
+
+.section_title{
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section_title h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+
+    margin-bottom: 60px;
+
+    position: relative;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.section_title h2::after{
+    content: "";
+    position: absolute;
+
+    width: 70px;
+    height: 4px;
+
+    background: #24caac;
+    border-radius: 10px;
+
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -18px;
+}
+
+.section_title p {
+    color: #cfd8dc;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/*? İLETİŞİM */
+
+.inner_contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.child_contact {
+    flex-basis: 45%;
+}
+
+.child_contact form {
+    padding: 50px 40px;
+    background-color: #2f363e;
+    border-radius: 5px;
+}
+
+.child_contact form input,textarea {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #24292d;
+    border: none;
+    resize: none;
+    border-radius: 25px;
+    transition: all 0.3 ease-in;
+}
+
+.child_contact form input,textarea:focus {
+    color: #fff;
+}
+
+.child_contact form input:focus {
+    letter-spacing: 1px;
+}
+
+.child_contact form textarea:focus {
+    letter-spacing: 1px;
+}
+
+.child_contact .contact_btn {
+    background-color: #24caac;
+    margin-bottom: 0;
+    border: 1px solid #24caac;
+    transition: .3s;
+}
+
+.child_contact .contact_btn:hover {
+    background: transparent;
+    color: #fff;
+}

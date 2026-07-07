@@ -1,0 +1,156 @@
+@media screen and (max-width:770px) {
+
+    .navbar {
+        width: 90%;
+    }
+
+    .logo h2 a {
+        font-size: 20px;
+    }
+   
+    #menu_bar {
+        display: grid;
+        color: #fff;
+        position:absolute;
+        right: 5%;
+        top: 20%;
+        border: 1px solid #fff;
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+    .nav_links {
+        flex-direction: column;
+        position: absolute;
+        background: #24292d;
+        width: 100%;
+        left: 0;
+        top: 47px;
+        padding: 0;
+    }
+
+    .nav_links li a {
+        border-bottom: 1px solid #fff;
+        display: block;
+        border-radius: 0;
+        padding: 10px 0;
+        margin: 0 20px;
+    }
+
+     .nav_links li:last-child a {
+        border-bottom: none;
+            }
+
+     .inner_anasayfa {
+        display: flex; /* Eğer tanımlı değilse ekleyin */
+        flex-wrap: wrap;
+        flex-direction: column-reverse; /* Bu satır resmi üste, metni alta alır */
+    }
+
+     /* Görselin kapsayıcı içerisindeki genişliğini sınırlama */
+     .child_anasayfa img {
+        width: 100%; /* İsterseniz bunu 50% veya 70% yaparak boyutla oynayabilirsiniz */
+        display: block;
+        margin: 0 auto; /* Görseli ortalamak için */
+        border-radius: 2px; /* Opsiyonel: köşeleri yumuşatmak için */
+    }
+
+    .child_anasayfa {
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .child_anasayfa:last-child {
+        margin-bottom: 20px;
+    }
+
+    .child_anasayfa h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .child_anasayfa p {
+        font-size: 20px;
+        width: 100%; /* Sola yaslanabilmesi için genişliği tam kaplamasını sağlar */
+        text-align: left; /* Yazıyı sola yaslar */
+        align-self: flex-start; /* Esnek kutu içerisinde sola hizalar */
+
+    }
+
+    .innersoftware_child {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+        
+    }
+
+    .child_course {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .child_course .course_img img {
+        max-width: 150px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+      .child_achivement {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .child_achivement2 {
+        flex-basis: 100%;
+        
+    }
+
+    .child_achivement2 .single_detail {
+        flex-basis: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+  
+    .child_achivement img {
+        display: block;
+        width: 220%;
+        height: auto;
+        margin-left: 25px;
+    }
+
+    .child_testimonial {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .child_testimonial .testimonial_img {
+        max-width: 150px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .child_contact {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+
+}
+
